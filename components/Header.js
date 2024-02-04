@@ -3,12 +3,11 @@ import { View, Text } from 'react-native';
 
 export default function ç() {
   return (
-    <View style={{ flex: 0.2, backgroundColor: '#009999' }}>
+    <View style={{ flex: 2, paddingBottom: 5, justifyContent: "flex-end", backgroundColor: '#009999' }}>
       <Text
-        style={{ padding: 40, fontSize: 30, color: 'black' }}
-        numberOfLines={2}>
-        Welcome
-        <Text style={{ fontWeight: 'bold' }}> to Expo app</Text>
+        style={{ fontSize: 30, textAlign: "center", color: 'black' }}
+        numberOfLines={1}>
+        <Text style={{ fontWeight: 'bold' }}> Expo app</Text>
       </Text>
     </View>
   );
